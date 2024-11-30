@@ -1,0 +1,145 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+  background: #f3f4f6;
+  color: #333;
+  line-height: 1.6;
+}
+
+label{
+  color: black;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+/* Header */
+header {
+  background: #0077b6;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+#hero-section {
+  background: linear-gradient(120deg, #0077b6, #00b4d8);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+#hero-section .hero-text h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+#hero-section .hero-text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#hero-section .btn {
+  background: #023e8a;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#hero-section .btn:hover {
+  background: #0096c7;
+}
+
+/* Section Styling */
+.section {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.section p {
+  margin-bottom: 20px;
+}
+
+/* Forms and Inputs */
+form, #questions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #0077b6;
+  color: white;
+  cursor: pointer;
+}
+
+h2{
+  margin-top: .5%;
+  margin-bottom: .5%;
+}
+
+button:hover {
+  background: #005f99;
+}
+
+.btn{
+  
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+
+/* Footer */
+footer {
+  background: #023e8a;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}

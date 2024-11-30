@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document Maintenance System</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Document Maintenance System</h1>
+      <nav>
+        <ul>
+          <li><a href="#upload-section">Upload</a></li>
+          <li><a href="#search-section">Search</a></li>
+          <li><a href="#about-section">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero-section">
+      <div class="hero-text">
+        <h2>File Management</h2>
+        <p>Upload, organize, and retrieve your documents with ease.</p>
+        <a href="#upload-section" class="btn">Get Started</a>
+      </div>
+    </section>
+
+    <section id="upload-section" class="section">
+      <h2>Upload Your Files</h2>
+      <p>Securely upload your documents and keep them organized.</p>
+      <form id="upload-form">
+        <input type="file" id="file-upload" multiple>
+        <button type="button" id="upload-btn" class="btn">Upload</button>
+      </form>
+    </section>
+
+    <section id="search-section" class="section">
+      <h2>Search Files</h2>
+      <p>Answer a few questions to find your documents.</p>
+      <div id="questions">
+        <label for="query1">Document Type:</label>
+        <input type="text" id="query1" placeholder="e.g., Invoice, Report">
+        
+        <label for="query2">Date or Year:</label>
+        <input type="text" id="query2" placeholder="e.g., 2024, Jan">
+
+        <label for="query3">Department or Tag:</label>
+        <input type="text" id="query3" placeholder="e.g., HR, Finance">
+      </div>
+      <button id="search-btn" class="btn">Search</button>
+      <div id="results"></div>
+    </section>
+
+    <section id="about-section" class="section">
+      <h2>About</h2>
+      <p>
+        The Document Maintenance System is designed to streamline document management by allowing users to upload and search files using a simple query system. Perfect for personal and organizational use.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Document Maintenance System | Designed with 💻 by Sagar K Chavan</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
